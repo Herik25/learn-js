@@ -16,7 +16,7 @@ Welcome to the repository for learning JavaScript! This repository is designed t
 
 ## OR:
 
-**You can directly COPY and PASTE my code
+**You can directly COPY and PASTE my code**
 
 ## Support:
 
