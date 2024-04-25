@@ -1,6 +1,6 @@
 ﻿# Learning JavaScript
 
-Welcome to the repository for learning JavaScript with! This repository is designed to support my friends in their journey to master JavaScript development. Below, you'll find step-by-step instructions to get started with the repository content.
+Welcome to the repository for learning JavaScript! This repository is designed to support my friends in their journey to master JavaScript development. Below, you'll find step-by-step instructions to get started with the repository content.
 
 ## Instructions:
 
