@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <p id="old">this is old paragraph</p>
+        <button onclick="handleChange()">change</button>
+    </div>
+    <script>
+        const container = document.getElementById("container")
+        // console.log(container);
+        function handleChange() {
+            const oldP = document.getElementById("old")
+            
+            const newP = document.createElement("h1")
+            newP.innerText = "This is new Paragraph"
+
+            container.replaceChild(newP, oldP)
+        }
+        
+    </script>
+</body>
+
+</html>
