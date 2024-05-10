@@ -1,15 +1,54 @@
-// const msg = "this is a global message"
+// console.log(1);
+// console.log(2);
+// setTimeout(() => {
+//     console.log("5 sec");
 
-// try {
-//     const msg = "this is a try msg"
-//     throw "this is an error"
-//     console.log(msg);
-// } catch (e) {
-//     const msg = "this is a catch msg " + e
-//     console.log(msg);
-// } finally {
-//     msg = "this is finally msg"
-//     console.log("this is finally " + msg);
+// }, 5000);
+// setTimeout(() => {
+//     console.log("2 sec");
+// }, 2000);
+// console.log(3);
+// console.log(4);
+
+// setInterval(() => {
+//     console.log("i am an interval");
+// }, 1000)
+
+// function display(num) {
+//     console.log(num);
+// }
+// function sum(a, b, sum) {
+// //   console.log(a + b);
+//   sum(a + b);
 // }
 
-// console.log("line 14 : ", msg);
+// sum(1, 2, display);
+
+
+
+// function hello() {
+//     console.log("hello");
+//     setTimeout(() => {
+//         hello()
+//     }, 2000)
+// }
+
+// hello()
+
+//  const interval = setTimeout(() => {
+//     console.log("soryy Baby");
+//  }, 5000);
+
+// function stopInterval() {
+//     clearTimeout(interval)
+// }
+
+// const promise = new Promise((res, rej) => {
+//     res("database access =")
+// })
+
+// promise.then((data) => {
+//     console.log(data);
+// }).catch((err) => console.log(err)).finally(() => {
+//     console.log("this is finally block");
+// })
