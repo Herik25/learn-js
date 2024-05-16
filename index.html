@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AJAX POST Example</title>
 </head>
+
 <body>
-    <h1>Hello Harsh</h1>
-    <p id="mv"></p>
-    <script src="./api.js"></script>
+    <h1>AJAX POST Request Example</h1>
+    <button id="sendRequest">Send POST Request</button>
+
+    <script>
+        document.getElementById('sendRequest').addEventListener('click', function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://jsonplaceholder.typicode.com/todos', true);
+            xhr.setRequestHeader('Content-type', 'application/json');
+            xhr.onload = () => {
+                console.log("Response : " + xhr.responseText);
+            }
+
+            xhr.onerror = () => {
+                console.log("thre is an error");
+            }
+
+            var data = {
+                title: "AJAX POST Request",
+                body: "This is a post request",
+                userId: 1
+            }
+
+            xhr.send(JSON.stringify(data))
+
+        });
+
+        var data = {
+            title: "AJAX POST Request",
+            body: "This is a post request",
+            userId: 1
+        }
+
+    </script>
 </body>
+
 </html>

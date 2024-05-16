@@ -51,5 +51,25 @@
 //     console.log("button");
 // },true)
 
-const el = document.querySelectorAll(".items")
-console.log(el);
+// const el = document.querySelectorAll(".items")
+// console.log(el);
+
+name = "asdf"
+
+var person = {
+    name: "jason",
+
+    shout: function () {
+        console.log("my name is ", this.name);
+    },
+    shout2: () => {
+        console.log("my name is ", this.name);
+    },
+    shout3() {
+        console.log("my name is ", this.name);
+    }
+};
+
+person.shout();
+person.shout2(); 
+person.shout3(); 

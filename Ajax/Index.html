@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Tutorial</title>
+</head>
+
+<body>
+    <h1>Employee List</h1>
+    <button id="fetchBtn">Fetch Employee List</button>
+    <ul id="employeeList"></ul>
+    <script src="./Script.js"></script>
+    <script>
+        // console.log("this is ajax tutorial");
+
+        // const btn = document.getElementById("fetchBtn");
+
+        // btn.addEventListener("click", () => {
+        //     const xhr = new XMLHttpRequest();
+        //     xhr.open("GET", "https://dummy.restapiexample.com/api/v1/employees", true);
+        //     xhr.onload = () => {
+        //         if (xhr.status === 200) {
+        //             let obj = JSON.parse(xhr.responseText);
+        //             console.log(obj);
+        //             // addEmployeesToDOM(obj.data);
+        //         } else {
+        //             console.log("error");
+        //         }
+        //     };
+
+        //     xhr.send();
+        // });
+
+        // function addEmployeesToDOM(employees) {
+        //     const employeeList = document.getElementById("employeeList");
+        //     employeeList.innerHTML = '';  // Clear the list before adding new items
+
+        //     employees.forEach(employee => {
+        //         const li = document.createElement("li");
+        //         li.textContent = `ID: ${employee.id}, Name: ${employee.employee_name}, Salary: ${employee.employee_salary}, Age: ${employee.employee_age}`;
+        //         employeeList.appendChild(li);
+        //     });
+        // }
+    </script>
+</body>
+
+</html>

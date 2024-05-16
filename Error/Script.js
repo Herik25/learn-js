@@ -24,8 +24,6 @@
 
 // sum(1, 2, display);
 
-
-
 // function hello() {
 //     console.log("hello");
 //     setTimeout(() => {
@@ -52,3 +50,10 @@
 // }).catch((err) => console.log(err)).finally(() => {
 //     console.log("this is finally block");
 // })
+
+async function fetchData() {
+  const res = fetch("https://dummyjson.com/products/1");
+  const data = res.json();
+   console.log(data);
+//   await fetch("").then(res => res.json()).catch(err => console.log(err))
+}
