@@ -73,3 +73,18 @@ var person = {
 person.shout();
 person.shout2(); 
 person.shout3(); 
+
+const name = "global";
+
+var person = {
+  name: "harsh",
+  printName: function () {
+    console.log(this.name);
+  },
+  printName2: () => {
+    console.log(this.name);
+  },
+};
+
+person.printName();
+person.printName2();

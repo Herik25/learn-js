@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="local">
+    <button onclick="setLocal()">Set Local</button>
+    <script>
+        const inp = document.getElementById("local");
+        function setLocal(){
+            const value = inp.value;
+            localStorage.setItem("asdlfjasldkfjslakdl",value);
+            localStorage.setItem("key", "value-something")
+            sessionStorage.setItem("key", "value-something")
+            alert(sessionStorage.getItem("key"))
+        }
+    </script>
+</body>
+</html>
