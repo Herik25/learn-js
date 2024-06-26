@@ -8,11 +8,6 @@ const set = new Set([1, 2, 3, 4]);
 const arrayFromSet = Array.from(set);
 console.log(arrayFromSet); // Output: [1, 2, 3, 4]
 
-// Using map function
-const nums = [1, 2, 3];
-const squared = Array.from(nums, x => x * x);
-console.log(squared); // Output: [1, 4, 9]
-
 
 // The Array.from() method returns an array from any object with a length property.
 // The Array.from() method returns an array from any iterable object.

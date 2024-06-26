@@ -1,6 +1,6 @@
 const words = ["Hello", " ", "World", "!"];
 
-const concatenated = words.reduceRight((accumulator, currentValue) => accumulator + currentValue);
+const concatenated = words.reduceRight((accumulator, currentValue) => accumulator + currentValue, "");
 
 console.log(concatenated); // Output: "!World Hello"
 

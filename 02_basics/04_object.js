@@ -1,18 +1,18 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const curUser = new Object()
+const curUser = {}
 
-tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
-tinderUser.isLoggedIn = false
+curUser.id = "123abc"
+curUser.name = "Sammy"
+curUser.isLoggedIn = false
 
-// console.log(tinderUser);
+// console.log(curUser);
 
 const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
             firstname: "Harsh",
-            lastname: "choudhary"
+            lastname: "parmar"
         }
     }
 }
@@ -46,13 +46,13 @@ const users = [
 ]
 
 users[1].email
-// console.log(tinderUser);
+// console.log(curUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(curUser));
+// console.log(Object.values(curUser));
+// console.log(Object.entries(curUser));
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(curUser.hasOwnProperty('isLoggedIn'));
 
 
 const course = {

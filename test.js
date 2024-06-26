@@ -57,7 +57,3 @@
 //   expect(result).toBe(11); // Assertion: result should be 11
 //   expect(logger.log).toHaveBeenCalledWith('Sum is greater than 10'); // Check if logger was called correctly
 // });
-
-
-
-  
